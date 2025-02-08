@@ -2,6 +2,14 @@
 
 一个 Node.js 项目快速起手模板。
 
+## 集成技术
+
+- [x] TypeScript：使用 TypeScript 编写代码
+- [x] ESLint：代码风格检查
+- [x] commitlint：规范 commit message
+- [x] commitizen：规范 commit message，主要是与 git-hook 侧的交互
+- [x] lefthook：git-hook 工具
+
 ## 构建过程
 
 ```bash

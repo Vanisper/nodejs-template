@@ -2,7 +2,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "always"
+    "source.organizeImports": "never"
   },
 
   "editor.quickSuggestions": {
@@ -12,7 +12,7 @@
   "eslint.useFlatConfig": true,
 
   "yaml.schemas": {
-    "schema/commitlint-with-cz.json": ".commitlintrc.yaml"
+    ".vscode/schema/commitlint-with-cz.json": ".commitlintrc.yaml",
   },
 
   "explorer.fileNesting.enabled": true,

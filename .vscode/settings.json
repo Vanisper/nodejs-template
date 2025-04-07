@@ -12,7 +12,7 @@
   "eslint.useFlatConfig": true,
 
   "yaml.schemas": {
-    ".vscode/schema/commitlint-with-cz.json": ".commitlintrc.yaml",
+    ".vscode/schema/commitlint-with-cz.json": ".commitlintrc.yaml"
   },
 
   "explorer.fileNesting.enabled": true,

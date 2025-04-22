@@ -3,6 +3,10 @@
   "type": "module",
   "version": "0.0.0",
   "sideEffects": false,
+  "engines": {
+    "node": ">=18.x",
+    "pnpm": ">=10.0"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "npx lefthook install",

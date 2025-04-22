@@ -17,8 +17,8 @@
 pnpm install --save-dev @commitlint/cli @commitlint/config-conventional
 # commitizen
 pnpm install --save-dev commitizen cz-git
-# eslint & lefthook（ts 版的 eslint 配置文件需要 jiti 支持）
-pnpm install --save-dev eslint jiti @antfu/eslint-config lefthook
+# eslint & lefthook
+pnpm install --save-dev eslint @antfu/eslint-config lefthook
 ```
 
 安装了 `commitizen` & `cz-git` 之后，

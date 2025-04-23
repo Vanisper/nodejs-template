@@ -38,19 +38,12 @@
     },
     "parserPreset": {
       "description": "Resolveable id to conventional-changelog parser preset to import and use",
-      "oneOf": [
-        { "type": "string" },
-        {
-          "type": "object",
-          "properties": {
-            "name": { "type": "string" },
-            "path": { "type": "string" },
-            "parserOpts": {}
-          },
-          "additionalProperties": true
-        },
-        { "typeof": "function" }
-      ]
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "path": { "type": "string" },
+        "parserOpts": {}
+      }
     },
     "helpUrl": {
       "description": "Custom URL to show upon failure",
